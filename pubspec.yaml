@@ -3,6 +3,7 @@ description: Implements part of the material search pattern with flutter widgets
 version: 0.2.8
 author: Ian Luca de Godoy Serpa <ian.naph@gmail.com>
 homepage: https://github.com/ianldgs/material_search
+publish_to: none
 
 environment:
   sdk: '>=2.0.0 <3.0.0'
@@ -11,7 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
   meta: ^1.1.1
-  mockito: ^5.0.2
+  
+  mockito: 
+    git: 
+      url: https://github.com/dart-lang/mockito.git
+      ref: CB038376F98978355FED934D6FCDB0F4
 
 dev_dependencies:
   flutter_test:
